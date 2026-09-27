@@ -3,10 +3,11 @@ dx <- 3.0 <br>
 dy <- 10.0<br>
 s1 <- 5.0<br>
 s2 <- 2.0 <br>
-L1 <- input de l'utilisateur<br>
-L2 <- racine carré de (dx au carré + (dy-L1) au carré)<br>
+Bonus trouver L1 optimal : calcul expliquer dans le code<br>
+L1 <- 10.0-(6.0/sqrt(21.0))<br>
+L2 <- sqrt(dx^2 + (dy-L1)^2)<br>
 t1 <- L1 / s1<br>
 t2 <- L2 / s2<br>
-t_tot <- t1 + t2<br>
+tempsTotal <- t1 + t2<br>
 
-Affichage t_tot (si l'utilisateur donne les données en km et km/h le résultat est directement en heure)
+Affichage tempsTotal (si l'utilisateur donne les données en km et km/h le résultat est directement en heure)
